@@ -1,0 +1,121 @@
+.pagina{
+    background-color: cyan;
+    text-align: center;
+}
+.foto{
+    align-content: center;
+}
+.nombredatos{
+    height: 100px;
+    border: #ff7f50;
+    background-color: green;
+    display:flex;
+    align-items: center;
+    text-align:center;
+    margin: 10px;
+}
+.objetivos{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(9, 0, 128);
+    margin: 10px;
+}
+.formacion{
+    width: 50%;
+    height: 400px;
+    background-color: yellow;
+    display:flex;
+    align-items: center;
+    text-align:center;
+    margin: 10px;
+}
+.experiencia{
+    width: 50%;
+    height: 400px;
+    background-color: orangered;
+    display:flex;
+    align-items: center;
+    text-align:center;
+    margin: 10px;
+}
+.habilidades{
+    width: 50%;
+    height: 400px;
+    background-color: greenyellow;
+    display:flex;
+    align-items: center;
+    margin: 10px;
+
+}
+.borderHist {
+    height: fit-content;
+    background: linear-gradient(to right, #000000 20%, #0051ff 50%, #01c4ff 70%);
+    background-size: 200%;
+    border-radius: 20px;
+    padding: 5px;
+    animation: shine2 3s linear infinite;
+  }
+  
+  @keyframes shine2 {
+      to {
+        background-position: -200% center;
+      }
+    }
+.divHistAcademico{
+    background-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+}
+
+.borderobjetivos {
+    height: fit-content;
+    width: 50%;
+    background: linear-gradient(to right, #000000 20%, #5eff00 50%, #c8ff01 70%);
+    background-size: 200%;
+    border-radius: 20px;
+    padding: 5px;
+
+    animation: shine2 3s linear infinite;
+  }
+  
+  @keyframes shine2 {
+      to {
+        background-position: -200% center;
+      }
+    }
+.divobjetivos{
+    background-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+}
+.textName{
+    color: brown;
+    font-style: bold;
+    font-size: 30px;
+
+}
+.imgPerfil{
+    width:230px; 
+    height:250px;
+}
+@media (max-width:700px) {
+    .textName{
+        color: brown;
+        font-style: bold;
+        font-size: 60px;
+    
+    }
+    .imgPerfil{
+        width:100px; 
+        height:100px;
+        
+    }
+    
+}
+
